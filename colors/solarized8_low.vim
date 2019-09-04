@@ -164,7 +164,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
       hi TabLineSel guifg=#839496 guibg=#073642 guisp=NONE gui=reverse cterm=reverse
       hi VertSplit guifg=#93a1a1 guibg=#586e75 guisp=NONE gui=NONE cterm=NONE
     endif
-    hi ColorColumn guifg=NONE guibg=#586e75 guisp=NONE gui=NONE cterm=NONE
+    hi ColorColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Conceal guifg=#268bd2 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi CursorColumn guifg=NONE guibg=#586e75 guisp=NONE gui=NONE cterm=NONE
     hi CursorLine guifg=NONE guibg=NONE guisp=#93a1a1 gui=underline ctermfg=NONE ctermbg=NONE cterm=underline

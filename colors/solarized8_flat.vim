@@ -146,7 +146,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
       hi TabLineSel guifg=#eee8d5 guibg=#073642 guisp=NONE gui=NONE cterm=NONE
       hi NormalMode guifg=#073642 guibg=#eee8d5 guisp=NONE gui=reverse cterm=reverse
     endif
-    hi ColorColumn guifg=NONE guibg=#073642 guisp=NONE gui=NONE cterm=NONE
+    hi ColorColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi Conceal guifg=#268bd2 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     hi CursorColumn guifg=NONE guibg=#073642 guisp=NONE gui=NONE cterm=NONE
     hi Directory guifg=#268bd2 guibg=NONE guisp=NONE gui=NONE cterm=NONE
